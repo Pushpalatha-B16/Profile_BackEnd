@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'userprofile.wsgi.application'
 
 DATABASES = {
     'default': {
-        "ENGINE": os.environ.get("DB_ENGINE", "django.db.backends.mysql"),
-        "NAME": os.environ.get("DB_NAME", "userprofile"),
-        "USER": os.environ.get("DB_USER", "root"),
-        "PASSWORD": os.environ.get("DB_PASSWORD", "1234@"),
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "bqbydlq8duy52xjjbj17",
+        "USER": "ucjbrszslm4jnrpa",
+        "PASSWORD": "dJMxCLbV54b92P23XFMj",
         "HOST": os.environ.get("DB_HOST", "127.0.0.1"),
-        "PORT": os.environ.get("DB_PORT", "3306"),
+        "PORT":  "bqbydlq8duy52xjjbj17-mysql.services.clever-cloud.com",
     }
 }
 
@@ -130,5 +130,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
